@@ -5,9 +5,31 @@
 
   <testsuite name="signUp"
     errors="0" failures="0" hostname="" id="" package="signUp" skipped="0"
-    tests="1" time="4.346" timestamp="">
+    tests="1" time="9.602" timestamp="">
   
-    <testcase name="Plan sign up" classname="signUp" time="4.346" assertions="1">
+    <testcase name="Plan sign up" classname="signUp" time="9.602" assertions="12">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 
     
     </testcase>
