@@ -1,3 +1,7 @@
+/*  This test covers the sign-up process in the 
+    Confluence test plan "Cantastic"
+    https://dmutah.atlassian.net/wiki/spaces/PLAN/pages/20054023/Cantastic
+*/
 var cantastic = {}
 
 module.exports = {
@@ -15,7 +19,7 @@ module.exports = {
         cantastic
             .signUp('10 Cleaning Visits',
                 'Yearly',
-                'Tom',
+                'Tim',
                 'Putty',
                 'me@you.com',
                 '8015556666',

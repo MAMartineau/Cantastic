@@ -5,7 +5,6 @@ var signUpCommands = {
         city, state, zip, instructions, tpickup, rpickup, time, mainprice, recprice, yardprice,
         table, hearus, other, fullstate)
         {this
-            .pause(1000)
             .click('@signUp')
             .waitForElementVisible('@scrollUp')
             .click('@serviceSched')
@@ -47,7 +46,6 @@ var signUpCommands = {
     payment: function(payMethod, cardAddress, cardZip, cardNumber,
         expMonth, expYear, cvvCode)
         {this
-            .pause(1000)
             .setValue('@pmtMethod', payMethod)
             .setValue('@cardAddr', cardAddress)
             .setValue('@cardZipCd', cardZip)
@@ -68,7 +66,7 @@ module.exports = {
 url: 'https://cantastic.cloudpiston.net/cpsweb/22/index.html',
 commands: [signUpCommands],
 elements: {
-    //Signup selectors
+    //Signup, review page, and credit card selectors
     signUp: { selector: '//li/*[contains(text(), "Sign Up")]', locateStrategy: 'xpath' },
     scrollUp: '.scrollup',
     serviceSched: { selector: '//*[@id="pricingId"]', locateStrategy: 'xpath' },
