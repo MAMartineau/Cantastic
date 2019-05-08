@@ -53,7 +53,7 @@ var signUpCommands = {
             .setValue('@cardExpMo', expMonth)
             .setValue('@cardExpYr', expYear)
             .setValue('@cvvCde', cvvCode)
-            .click('@nextButton1')
+            .click('@finSubmit')
             .waitForElementVisible('@success')
             .pause(1000)
 
@@ -106,6 +106,7 @@ elements: {
     cardExpMo: '[id="expireMonth"]',
     cardExpYr: '[id="expireYear"]',
     cvvCde: '[id="ccode"]',
+    finSubmit: { selector: '//*[@value="Finish"]', locateStrategy: 'xpath' },
     success: { selector: '//div/*[contains(text(), "Success!")]', locateStrategy: 'xpath' },
 
     },

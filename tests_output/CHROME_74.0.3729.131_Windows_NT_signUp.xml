@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="signUp"
+    errors="0" failures="1" hostname="" id="" package="signUp" skipped="0"
+    tests="1" time="8.436" timestamp="">
+  
+    <testcase name="Plan sign up" classname="signUp" time="8.436" assertions="12">
+
+      <failure message="Testing if element &lt;Element [name=@paymentTable]&gt; contains text: &#34;$371.49&#34; in 1000 ms. - expected [0;32m&#34;$371.49&#34;[0m but got: [0;31m&#34;$424.87&#34;[0m">    at Page.signUp (C:\Users\marfa\Documents\DevMountain\Cantastic\pageObjects\cantasticOb.js:29:21)
+    at Object.Plan sign up (C:\Users\marfa\Documents\DevMountain\Cantastic\tests\signUp.js:20:14)</failure>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <failure message="    at Page.signUp (C:\Users\marfa\Documents\DevMountain\Cantastic\pageObjects\cantasticOb.js:29:21)">    at Object.Plan sign up (C:\Users\marfa\Documents\DevMountain\Cantastic\tests\signUp.js:20:14)</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
